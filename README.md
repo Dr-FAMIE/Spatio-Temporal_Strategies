@@ -15,9 +15,9 @@ This folder contains the results of the Principal Component Analyses (PCA) condu
 
 ## 5) Coefficient of Variation
 This folder includes the ANOVA analysis related to the coefficient of variation for the following movement parameters:
-•	Strike Amplitude: Stat_Coefficient-Variation_Strike_Amplitude (JASP and CSV files)
-•	Impact Speed: Stat_Coefficient-Variation_Impact_Speed (JASP and CSV files)
-•	Strike Duration: Stat_Coefficient-Variation_Duration (JASP and CSV files)
+- **Strike Amplitude**: `Stat_Coefficient-Variation_Strike_Amplitude` (JASP and CSV files)  
+- **Impact Speed**: `Stat_Coefficient-Variation_Impact_Speed` (JASP and CSV files)  
+- **Strike Duration**: `Stat_Coefficient-Variation_Duration` (JASP and CSV files)
 
 ## 6) Cluster Performance
 This folder contains the ANOVA results on spatial error across the three clusters, in the JASP file ‘Clusters_Performance’. It also includes the Excel and CSV datasets used for the JASP analysis.
