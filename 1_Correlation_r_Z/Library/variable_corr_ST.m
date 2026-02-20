@@ -8,11 +8,10 @@ function [Param] = variable_corr_ST(ST)
     Param.Slope = ST.data(:,8);
     Param.Trial = ST.data(:,10);
     Param.Trial_All = ST.data(:,12);
-    Param.Time = ST.data(:,13);
-    Param.Dist = ST.data(:,14);
-    Param.Angle = ST.data(:,15);
-    Param.V_IPD = ST.data(:,16);
-    Param.SE = ST.data(:,17);
+    Param.Duration = ST.data(:,13);
+    Param.Amplitude = ST.data(:,14);
+    Param.Impact_Speed = ST.data(:,15);
+    Param.Spatial_Error = ST.data(:,16);
 
 end
 

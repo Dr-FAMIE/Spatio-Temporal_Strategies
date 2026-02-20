@@ -33,11 +33,5 @@
     ST.Corr.Z.T_V_D = [ST.Corr.Z.T_V, ST.Corr.Z.T_D, ST.Corr.Z.V_D];
     ST.Corr.Z.T_V_A = [ST.Corr.Z.T_V, ST.Corr.Z.T_A, ST.Corr.Z.V_A];   
     
-%% Kmean K = 3  
-%     k = 3;
-%     idx_1 = kmeans(ST.Corr.Z.T_V_D,k);
-%     idx_2 = kmeans(ST.Corr.Z.T_V_A,k);
-%     [idx_1, idx_2]
-    
     
     
