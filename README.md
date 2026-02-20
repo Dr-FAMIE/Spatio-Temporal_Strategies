@@ -7,9 +7,9 @@ The “D_A_IS_SE_Matlab” file contains the raw dataset used for all analyses, 
 ## 1) Correlation r to Z
 The Excel file D_A_IS_SE_Matlab.xlsx is imported by the MATLAB script (Script_Reg_Spatio_Temp.m).
 The script computes Pearson correlation coefficients (r) and their Fisher Z-transformed values for the following variable pairs contained in the Excel file r_&_Z_values.xlsx:
-●	Strike Duration & Impact Speed
-●	Strike Duration & Strike Amplitude
-●	Impact Speed & Strike Amplitude
+-	Strike Duration & Impact Speed
+-	Strike Duration & Strike Amplitude
+-	Impact Speed & Strike Amplitude
 
 ## 2)  Clustering
 This folder contains a Jupyter notebook used to compute K-means using Hartigan & Wong’s (1979) algorithm, together with the Elbow method and t-Distributed Stochastic Neighbor Embedding method corresponding to manuscript Figure 4.
