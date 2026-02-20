@@ -2,6 +2,7 @@
     clear 
     close all
     clc
+    addpath('Library')
 %% Repertoire avec tous les sujets
 All_strikes = ('All_strikes');
 cd(All_strikes);

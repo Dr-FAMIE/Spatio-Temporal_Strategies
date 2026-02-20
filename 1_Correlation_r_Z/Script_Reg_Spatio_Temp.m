@@ -4,17 +4,9 @@
     clc
     
 %% Addpath
-    addpath ('\Library');
-    addpath ('D:\Doctorat\Experience\Matlab-traitement\function\fct_for_fct');
-    addpath ('D:\Doctorat\Experience\Matlab-traitement\function\Visualisation_graph');
-    addpath ('D:\Doctorat\Experience\Matlab-traitement');
-    addpath ('D:\Doctorat\Experience\Matlab-traitement\fct_mvt');
-    addpath ('D:\Doctorat\Experience\Matlab-traitement\Calcule_param');
-    addpath (genpath('D:\Doctorat\Experience\Matlab-traitement\lib_try'));
-    addpath (genpath('D:\Doctorat\Experience\Matlab-traitement\Art_figures'));
-    
+    addpath ('Library');
+
 %% Import Data    
-    %Data = importdata('T_DA_V_SE_Matlab_v2.xlsx');  
     Data = importdata('D_A_IS_SE_Matlab.xlsx'); 
     ST.data = Data.data;
     
